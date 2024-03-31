@@ -5,3 +5,4 @@ export async function submitForm(formData: any) {
   console.log(formData.get("Ahoj"))
   cookies().set('test', formData.get("Ahoj"))
   }
+   
